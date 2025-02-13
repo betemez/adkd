@@ -18,7 +18,7 @@ from .seesaw_loss import SeesawLoss
 from .smooth_l1_loss import L1Loss, SmoothL1Loss, l1_loss, smooth_l1_loss
 from .utils import reduce_loss, weight_reduce_loss, weighted_loss
 from .varifocal_loss import VarifocalLoss
-from .pkd_loss_2 import PKDLoss
+from .pkd_loss import PKDLoss
 from .fgd_loss import FeatureLoss
 
 __all__ = [
